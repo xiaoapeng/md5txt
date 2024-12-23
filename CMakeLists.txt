@@ -1,12 +1,14 @@
 cmake_minimum_required(VERSION 3.1)
 
 
+# include("/home3/pengym/codebuild/MC116-19090.1000.00.02.23.03/fibo_sdk/nushine/E7_test/cmake/gcc.cmake")
 
 #设置C++版本号
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_EXTENSIONS ON)
+
 
 project(md5txt LANGUAGES C CXX ASM)
 
